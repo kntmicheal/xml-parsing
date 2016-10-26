@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report created="25/10/2016 18:06:27" provider="KillDisk Industrial" version="1.3.31">
+    <!--System (OS) Information-->
+    <sysinfo>
+        <os version="Ubuntu 14.04.2 LTS" kernel="3.16.0-38-generic" platform="64-bit"/>
+    </sysinfo>
+    <attributes>
+        <name>Examining 14 disk(s) readability</name>
+        <method name="Partial examination" read_percent="1"/>
+        <grades assign="No" exclude_failed="Yes">
+            <failure_limit>99</failure_limit>
+        </grades>
+        <!--Error handling attributes and settings-->
+        <errors locksource="No" retries="3" skip="512" terminate="disk">
+            <ignore lock="Yes" read="Yes" write="Yes"/>
+        </errors>
+        <devices>
+            <device name="/dev/sdh" product="ATA HP J7989G" revision="00960029" serial="NWBET6926RFC" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdl" product="ATA HP J7989G" revision="00960029" serial="NWBET6926S57" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdaa" product="ATA HP J7989G" revision="00960029" serial="NWBET7529CMV" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdc" product="ATA HP J7989G" revision="00960029" serial="NWBET7329A8S" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdz" product="ATA HP J7989G" revision="00960029" serial="NWBET6B271A3" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdi" product="ATA HP J7989G" revision="00960029" serial="NWBET6B271F0" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sds" product="ATA HP J7989G" revision="00960029" serial="NWBET6725P4S" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdk" product="ATA HP J7989G" revision="008F0012" serial="NZ30T8127VRW" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdm" product="ATA HP J7989G" revision="00960029" serial="NWBET6725P64" type="Fixed Disk" size="37.3 GB (40,006,680,064 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78138047" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdr" product="ATA HP J7989G" revision="00960029" serial="NWBET6B271AK" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdw" product="ATA HP J7989G" revision="00960029" serial="NWBET6B2719P" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdy" product="ATA HP J7989G" revision="00960029" serial="NWBET6926SCM" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sde" product="ATA HP J7989G" revision="00960029" serial="NWBET6926SGV" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <device name="/dev/sdt" product="ATA HP J7989G" revision="008F0012" serial="NZ30T8429BP5" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+        </devices>
+    </attributes>
+    <result>
+        <disk>
+            <bay>/dev/sdt [2-10]</bay>
+            <started>25/10/2016 18:06:26</started>
+            <device name="/dev/sdt" product="ATA HP J7989G" revision="008F0012" serial="NZ30T8429BP5" type="Fixed Disk" size="37.3 GB (40,007,761,920 bytes)">
+                <geometry partitioning="MBR (Basic)" sectors="78140160" first="0" bps="512" spt="63" tpc="255"/>
+            </device>
+            <result>Disk examination Fixed Disk 20 (/dev/sdt) completed successfully</result>
+            <grade>N/A</grade>
+            <errors>None</errors>
+            <name>Examine disk</name>
+            <status>Success</status>
+            <elapsed>00:00:00</elapsed>
+            <checked>781406</checked>
+            <bay>/dev/sdt [2-10]</bay>
+        </disk>
+        <conclusion>Disk examination Fixed Disk 20 (/dev/sdt) completed successfully</conclusion>
+    </result>
+</report>
